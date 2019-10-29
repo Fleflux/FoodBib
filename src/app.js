@@ -61,13 +61,13 @@ import Detail from "./detail/detail.js";
 
         // Zuvor angezeigte Inhalte entfernen
         // Bei der Topbar nur die untere Zeile, im Hauptbereich alles!
-        app.className = "";
+        main.className = "";
         // header.querySelectorAll(".bottom").forEach(e => e.parentNode.removeChild(e));
         main.innerHTML = "";
 
         // CSS-Klasse übernehmen, um die viewspezifischen CSS-Regeln zu aktivieren
         if (content && content.className) {
-            app.className = content.className;
+            main.className = content.className;
         }
 
         // Neue Inhalte des Hauptbereichs einfügen
