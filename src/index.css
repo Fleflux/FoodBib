@@ -26,11 +26,11 @@ body {
 .navbar-left {
 
 }
+
 .see{
 background-color: lightblue;
 }
 #image {
-  background-image: url("image_upload.gif");
   background-position: center;
   background-size: cover;
   height: 300px;
