@@ -23,3 +23,27 @@ body {
 .hidden {
     display: none;
 }
+.navbar-left {
+
+}
+.see{
+background-color: lightblue;
+}
+#image {
+  background-image: url("image_upload.gif");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+
+}
+#rezept-titel{
+text-align: center;
+}
+.top-buffer { margin-top:20px; }
+
+div{
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+}
