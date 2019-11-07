@@ -1,34 +1,49 @@
+/*
+ * Dieses Stylesheet enthält nur allgemeine Anweisungen, die sich auf die
+ * gesamte App auswirken. Hier dürfen keine Änderungen vorgenommen werden,
+ * die sich nur auf bestimmte Bereiche der Anwendung auswirken sollen.
+ *
+ * Damit @import funktioniert, muss die Anweisung vor allen anderen
+ * CSS-Anweisungen stehen. Dieses Stylesheet muss daher auch vor allen
+ * anderen importiert werden.
+ */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 html, body {
     margin: 0;
-    padding: 0;
 }
-
-
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
 
-    background-color: rgba(27, 176, 19, 0.2);
-
-    main {
-
-      border-style: solid;
-      border-color: black;
-      border-width: 0;
-      border-bottom-width: 2px;
-
-      padding: 0.5em;
-      color: white;
-      font-size: 95%;
-
-      b, p{
-        color: #00000 ;
-
-      }
-    }
+    background-color: rgb(#40FF00);
 }
 
 .hidden {
     display: none;
+}
+.navbar-left {
+
+}
+
+.see{
+background-color: lightblue;
+}
+#image {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+
+}
+#rezept-titel{
+text-align: center;
+}
+.top-buffer { margin-top:20px; }
+
+div{
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
 }
