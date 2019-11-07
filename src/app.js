@@ -26,7 +26,14 @@ import Detail from "./detail/detail.js";
             "overview":            () => this.showOverview(),
             "*":                    () => this.showOverview(),
         });
-
+        this._data=[
+          { rezeptname = "Pfannkuchen",
+            zutaten = "Mehl, Eier, Dies, Das, Ananas",
+            beschreibung ="Alles zusammenmatschen und in ne Pfanne hauen", },
+        ]
+        //Methode zum rendern des Menüswitch
+        this.renderMenu();
+        
         this._router.hooks({
         after: (params) => {
                 // Navigation durchführen, daher die neue URL merken
