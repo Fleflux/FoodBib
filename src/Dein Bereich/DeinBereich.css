@@ -11,6 +11,8 @@
 
 html, body {
     margin: 0;
+    background-image: url()
+    text-align:center;
 }
 
 body {
@@ -19,7 +21,9 @@ body {
 
     background-color: rgb(#40FF00);
 }
-
+#beschreibung {
+  text-align: left;
+}
 .hidden {
     display: none;
 }
@@ -46,4 +50,9 @@ div{
   outline-style: solid;
   outline-color: red;
   outline-width: thin;
+}
+#footer{
+  margin:20px;
+  padding:10px;
+  text-align: center;
 }
